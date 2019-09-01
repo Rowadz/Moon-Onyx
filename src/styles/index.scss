@@ -3,6 +3,10 @@
 /* ---- reset ---- */
 
 body {
+  .dropdown-item {
+    cursor: pointer;
+  }
+  direction: rtl;
   margin: 0;
   font: normal 75% Arial, Helvetica, sans-serif;
   canvas {

@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <title>
       Moon Onyx
@@ -16,8 +19,32 @@
     <div id="particles-js"></div>
     <main class="show-me-on-top-off-canvas container">
       <div class="row text-white">
-        <div class="col-8">col-sm-8</div>
-        <div class="col-4">col-sm-4</div>
+        <div class="col-md-4 col-lg-4 col-sm-12">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              خيـــارات
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item">
+                الخلــفية
+              </a>
+              <a class="dropdown-item" id="add-new-input">
+                إضافة نص جديد
+              </a>
+              <a class="dropdown-item" id="go-full-screen">
+                تكبيـر\تصغير الشاشة
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-8 col-lg-8 col-sm-12">col-sm-8</div> -->
       </div>
     </main>
   </body>
