@@ -2,7 +2,7 @@ const mainColor = '#F2F2F2';
 export default {
   particles: {
     number: {
-      value: 80,
+      value: 180,
       density: {
         enable: true,
         value_area: 800
@@ -19,11 +19,6 @@ export default {
       },
       polygon: {
         nb_sides: 5
-      },
-      image: {
-        src: 'img/github.svg',
-        width: 100,
-        height: 100
       }
     },
     opacity: {

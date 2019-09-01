@@ -35,11 +35,11 @@ const addTxtFromInputLogic = (
         <button type="button" class="card-link btn btn-danger" style="display: none" id="${deleteTxtId}">مسح</button>
         </div>
         <div class="card-body text-white ">
-          <h5 class="card-title text-right">
+          <h2 class="card-title text-right">
           ${$(`#${inputId}`)
             .val()
             .toString()}
-          </h5>
+          </h2>
         </div>
       </div>`).draggable();
     $('body').append($text);
