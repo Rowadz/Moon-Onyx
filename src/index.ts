@@ -11,10 +11,12 @@ import 'jqueryui';
 import 'bootstrap';
 import 'particles.js';
 import neuralNetwork from './json/particles/neural-network.json';
+import edge from './json/particles/edge.json';
+import polygon from './json/particles/polygon.json';
 import './typescript/optionsMenu/options.behavior';
 
 declare const particlesJS: any;
 
-particlesJS('particles-js', neuralNetwork);
+particlesJS('particles-js', edge);
 
 requestAnimationFrame(() => {});

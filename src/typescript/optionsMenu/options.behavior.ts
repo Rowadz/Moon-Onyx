@@ -1,6 +1,11 @@
 import * as screesnfull from 'screenfull';
 import { createCardWithInpt } from './input.logic';
 import * as html2canvas from 'html2canvas';
+import neuralNetwork from '../../json/particles/neural-network.json';
+import edge from '../../json/particles/edge.json';
+import polygon from '../../json/particles/polygon.json';
+import 'particles.js';
+declare const particlesJS: any;
 
 $('#go-full-screen').on('click', () => {
   if ((screesnfull as any).enabled) {
@@ -33,4 +38,20 @@ $('#record-screen').on('click', () => {
       document.body.appendChild(canvas);
     }
   );
+});
+
+$('.background-patricels').on('click', (e: JQuery.ClickEvent) => {
+  switch (e.target.id) {
+    case 'neuralNetwork':
+      particlesJS('particles-js', neuralNetwork);
+      break;
+    case 'edge':
+      particlesJS('particles-js', edge);
+      break;
+    case 'polygon':
+      particlesJS('particles-js', polygon);
+      break;
+    default:
+      break;
+  }
 });

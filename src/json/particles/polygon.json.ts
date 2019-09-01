@@ -1,5 +1,3 @@
-import { mainColor } from './colors.helpers';
-
 export default {
   particles: {
     number: {
@@ -10,10 +8,10 @@ export default {
       }
     },
     color: {
-      value: mainColor
+      value: '#024873'
     },
     shape: {
-      type: 'circle',
+      type: 'polygon',
       stroke: {
         width: 0,
         color: '#000000'
@@ -33,7 +31,7 @@ export default {
       }
     },
     size: {
-      value: 2,
+      value: 50,
       random: true,
       anim: {
         enable: false,
@@ -43,11 +41,7 @@ export default {
       }
     },
     line_linked: {
-      enable: true,
-      distance: 150,
-      color: mainColor,
-      opacity: 0.4,
-      width: 1
+      enable: false
     },
     move: {
       enable: true,
