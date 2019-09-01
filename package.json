@@ -79,10 +79,14 @@
   "version": "0.0.1",
   "dependencies": {
     "@types/jquery": "^3.3.31",
+    "@types/jqueryui": "^1.12.7",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
+    "jqueryui": "^1.11.1",
     "particles.js": "^2.0.0",
     "popper.js": "^1.15.0",
-    "screenfull": "^4.2.1"
+    "record-screen": "^3.11.0",
+    "screenfull": "^4.2.1",
+    "short-uuid": "^3.1.1"
   }
 }

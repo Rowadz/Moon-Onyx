@@ -1,5 +1,5 @@
 import * as screesnfull from 'screenfull';
-
+import { createCardWithInpt } from './input.logic';
 declare const screenfull: any;
 
 $('#go-full-screen').on('click', () => {
@@ -8,4 +8,6 @@ $('#go-full-screen').on('click', () => {
   }
 });
 
-$('#add-new-input').on('click', () => {});
+$('#add-new-input').on('click', () => {
+  createCardWithInpt();
+});

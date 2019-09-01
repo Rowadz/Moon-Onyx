@@ -1,7 +1,9 @@
 @import 'bootstrap/scss/bootstrap.scss';
 @import './variables.scss';
-/* ---- reset ---- */
 
+html {
+  direction: rtl;
+}
 body {
   .dropdown-item {
     cursor: pointer;
@@ -23,5 +25,8 @@ body {
   }
   .show-me-on-top-off-canvas {
     z-index: 1;
+  }
+  .grab {
+    cursor: grab;
   }
 }
