@@ -1,6 +1,9 @@
 @import 'bootstrap/scss/bootstrap.scss';
 @import './variables.scss';
 
+* {
+  font-family: 'Reem Kufi', sans-serif;
+}
 html {
   direction: rtl;
 }
@@ -8,7 +11,6 @@ body {
   .drag-card {
     width: 18rem;
   }
-  font-family: cursive;
   .dropdown-item {
     cursor: pointer;
   }
@@ -32,5 +34,80 @@ body {
   }
   .grab {
     cursor: grab;
+  }
+  .color-box {
+    $wh: 40px;
+    width: $wh;
+    height: $wh;
+    &.ash {
+      $ash: #829fd9;
+      background-color: $ash;
+      border-color: $ash;
+    }
+    &.le {
+      $le: #f25116;
+      background-color: $le;
+      border-color: $le;
+    }
+    &.hogan {
+      $hogan: #f5c342;
+      background-color: $hogan;
+      border-color: $hogan;
+    }
+    &.jeronimo {
+      $jeronimo: #08d88d;
+      background-color: $jeronimo;
+      border-color: $jeronimo;
+    }
+    &.brevil {
+      $brevil: #264f9f;
+      background-color: $brevil;
+      border-color: $brevil;
+    }
+    &.delacroix {
+      $delacroix: #f24b99;
+      background-color: $delacroix;
+      border-color: $delacroix;
+    }
+    &.smoky {
+      $smoky: #a7d9d4;
+      background-color: $smoky;
+      border-color: $smoky;
+    }
+    &.umbra {
+      $umbra: #f4f3f2;
+      background-color: $umbra;
+      border-color: $umbra;
+    }
+    &.jinx {
+      $jinx: #f2e85e;
+      background-color: $jinx;
+      border-color: $jinx;
+    }
+    &.argent {
+      $argent: #f25a38;
+      background-color: $argent;
+      border-color: $argent;
+    }
+    &.lobo {
+      $lobo: #a66d03;
+      background-color: $lobo;
+      border-color: $lobo;
+    }
+    &.mock {
+      $mock: #cf272e;
+      background-color: $mock;
+      border-color: $mock;
+    }
+    &.graeme {
+      $graeme: #6d70a6;
+      background-color: $graeme;
+      border-color: $graeme;
+    }
+    &.darth {
+      $darth: #d91e63;
+      background-color: $darth;
+      border-color: $darth;
+    }
   }
 }
