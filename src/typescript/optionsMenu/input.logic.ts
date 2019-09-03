@@ -19,6 +19,9 @@ export const createCardWithInpt = (defaultVal: string = '') => {
   $('#textBase').append($card);
 
   $(`#${deleteId}`).on('click', () => $card.fadeOut().remove());
+  $(`#${inputId}`).on('click', function() {
+    this.focus();
+  });
   addTxtFromInputLogic(addId, $card, inputId);
 };
 
