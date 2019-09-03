@@ -1,1 +1,1 @@
-export declare const createCardWithInpt: () => void;
+export declare const createCardWithInpt: (defaultVal?: string) => void;

@@ -7,6 +7,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap"
+      rel="stylesheet"
+    />
 
     <title>
       Moon Onyx
@@ -45,11 +49,25 @@
               <a class="dropdown-item background-patricels" id="polygon">
                 خلفية 3
               </a>
+              <a class="dropdown-item background-patricels" id="neuralNetwork2">
+                خلفية 4
+              </a>
+              <a class="dropdown-item background-patricels" id="neuralNetwork3">
+                خلفية 5
+              </a>
               <a class="dropdown-item" id="add-new-input">
                 إضافة نص جديد
               </a>
               <a class="dropdown-item" id="go-full-screen">
                 تكبيـر\تصغير الشاشة
+              </a>
+              <a
+                class="dropdown-item"
+                id="go-full-screen"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                ألـــوان
               </a>
               <!-- <a class="dropdown-item" id="record-screen">
                 تصوير
@@ -58,6 +76,8 @@
           </div>
         </div>
         <!-- <div class="col-md-8 col-lg-8 col-sm-12">col-sm-8</div> -->
+
+        <section id="textBase" class="row w-100"></section>
       </div>
     </main>
 
@@ -92,6 +112,45 @@
               data-dismiss="modal"
             >
               إغلاق
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title" id="exampleModalLabel">
+              إختــيار الألــوان
+            </h5>
+          </div>
+          <div class="modal-body">
+            <div class="row" id="insetColorOptions"></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              إغــلاق
             </button>
           </div>
         </div>
