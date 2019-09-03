@@ -5,6 +5,9 @@ html {
   direction: rtl;
 }
 body {
+  .drag-card {
+    width: 18rem;
+  }
   font-family: cursive;
   .dropdown-item {
     cursor: pointer;

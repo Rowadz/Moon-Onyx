@@ -7,16 +7,15 @@ import 'jqueryui';
 // import 'jquery-ui/themes/base/selectable.css';
 // import 'jquery-ui/ui/core';
 // import 'jquery-ui/ui/widgets/selectable';
+import '../src/lib/jquery.ui.touch-punch.min.js';
 
 import 'bootstrap';
 import 'particles.js';
-import neuralNetwork from './json/particles/neural-network.json';
-import edge from './json/particles/edge.json';
 import polygon from './json/particles/polygon.json';
 import './typescript/optionsMenu/options.behavior';
 
 declare const particlesJS: any;
 
-particlesJS('particles-js', edge);
+particlesJS('particles-js', polygon);
 
 requestAnimationFrame(() => {});
