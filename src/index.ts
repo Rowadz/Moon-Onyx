@@ -7,7 +7,7 @@ import 'jqueryui';
 // import 'jquery-ui/themes/base/selectable.css';
 // import 'jquery-ui/ui/core';
 // import 'jquery-ui/ui/widgets/selectable';
-import '../src/lib/jquery.ui.touch-punch.min.js';
+// import '../src/lib/jquery.ui.touch-punch.min.js';
 
 import 'bootstrap';
 import 'particles.js';
