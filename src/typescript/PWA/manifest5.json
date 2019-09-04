@@ -1,0 +1,14 @@
+{
+  "name": "Moon Onyx",
+  "short_name": "Onyx",
+  "start_url": "http://localhost:3000/",
+  "gcm_sender_id": "103953800507",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/MohammedAl-Rowad/Moon-Onyx/code/src/typescript/PWA/potion.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
