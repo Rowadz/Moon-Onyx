@@ -14,6 +14,7 @@ import 'particles.js';
 import polygon from './json/particles/polygon.json';
 import './typescript/optionsMenu/options.behavior';
 import { globals } from './typescript/optionsMenu/globals.conf';
+import './typescript/PWA';
 
 declare const particlesJS: any;
 
