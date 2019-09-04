@@ -1,7 +1,8 @@
 {
   "name": "Moon Onyx",
   "short_name": "Onyx",
-  "start_url": "",
+  "start_url": "/",
+  "scope": ".",
   "gcm_sender_id": "103953800507",
   "display": "standalone"
 }
