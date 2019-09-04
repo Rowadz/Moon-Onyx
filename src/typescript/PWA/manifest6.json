@@ -1,7 +1,7 @@
 {
   "name": "Moon Onyx",
   "short_name": "Onyx",
-  "start_url": "http://localhost:3000/",
+  "start_url": "https://mohammedal-rowad.github.io/Moon-Onyx/",
   "gcm_sender_id": "103953800507",
   "display": "standalone",
   "icons": [
