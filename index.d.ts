@@ -3,3 +3,4 @@ import 'jqueryui';
 import 'bootstrap';
 import 'particles.js';
 import './typescript/optionsMenu/options.behavior';
+import './typescript/PWA';
